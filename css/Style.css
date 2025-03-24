@@ -320,11 +320,13 @@ header {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  transition: all 0.8s ease-in-out; /* Smooth animation */
+  transition: all 0.8s ease-in-out;
+  /* Smooth animation */
 }
 
 .container-3:hover .image-container img {
-  transform: scale(1.1); /* Zoom in */
+  transform: scale(1.1);
+  /* Zoom in */
 }
 
 
@@ -456,7 +458,8 @@ header {
 /* Product Name & Price Outside the Card */
 .product-text {
   text-align: center;
-  margin-top: 10px; /* Creates space between the image and text */
+  margin-top: 10px;
+  /* Creates space between the image and text */
 }
 
 .product-text p {
@@ -484,7 +487,13 @@ header {
 }
 
 
-
+h1 {
+  color: maroon;
+  background-color: coral;
+  text-align: center;
+  padding: 10px 0;
+  margin-bottom: 10px;
+}
 
 
 
